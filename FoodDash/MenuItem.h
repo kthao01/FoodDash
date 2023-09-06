@@ -15,9 +15,9 @@ private:
 public:
     menuItem(string itemName, float itemPrice);
     string getItemName();
-    float getItemPrice(); // Remove the unnecessary parameter
+    float getItemPrice(); 
     void setItemName(string itemName);
-    void setItemPrice(float price); // Use a different parameter name
+    void setItemPrice(float price); 
     menuItem(string itemName);
 };
 
